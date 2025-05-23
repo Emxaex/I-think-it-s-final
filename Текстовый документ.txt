@@ -1,0 +1,24 @@
+# 1. Перейти в нужную директорию (где находится твой файл)
+cd C:\Users\*****\PyCharmMiscProject\gitPapka
+
+# 2. Проверить какие файлы есть в папке
+dir    для Windows
+
+
+# 3. Инициализировать Git
+git init
+
+# 4. Добавить файл к отслеживанию (указать своё имя файла)
+git add FinalFile_maybe.py
+
+# 5. Создать коммит
+git commit -m "Первый коммит: добавил файл FinalFile_maybe.py"
+
+# 6. Переименовать ветку в main (современный стандарт)
+git branch -M main
+
+# 7. Подключить удалённый репозиторий GitHub
+git remote add origin https://github.com/Emxaex/I-think-it-s-final.git 
+
+# 8. Отправить изменения на GitHub
+git push -u origin main
